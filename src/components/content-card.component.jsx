@@ -28,7 +28,7 @@ function ContentCard() {
   }, []);
 
   return (
-    <div className="bg-lightprime max-w-5xl p-8 mx-3 flex justify-between items-center shadow-lg">
+    <div className="bg-lightprime max-w-5xl p-8 mx-3 mb-6 flex justify-between items-center shadow-lg md:flex-col-reverse">
       <div>
         <h1 className="text-3xl my-2 font-alegreya ">{content.title}</h1>
         <p className="text-xl text-slate-500 mb-1 font-alegreya italic">
