@@ -30,7 +30,7 @@ function ContentCard() {
   return (
     <div className="bg-lightprime max-w-5xl p-8 mx-3 mb-6 flex justify-between items-center shadow-lg md:flex-col-reverse">
       <div>
-        <h1 className="text-3xl my-2 font-alegreya ">{content.title}</h1>
+        <h1 className="text-3xl my-2 font-alegreya md:mt-4">{content.title}</h1>
         <p className="text-xl text-slate-500 mb-1 font-alegreya italic">
           {content.description}
         </p>
@@ -51,7 +51,7 @@ function ContentCard() {
       <img
         src={content.imgSrc}
         alt={content.title}
-        className="max-w-lg max-h-96 shadow-md rounded"
+        className="max-w-lg max-h-96 ml-5 mr-2 shadow-md rounded md:mx-5"
       />
     </div>
   );
