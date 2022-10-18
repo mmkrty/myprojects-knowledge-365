@@ -51,7 +51,7 @@ function ContentCard() {
       <img
         src={content.imgSrc}
         alt={content.title}
-        className="max-h-96 ml-10 shadow-md rounded"
+        className="max-w-lg max-h-96 shadow-md rounded"
       />
     </div>
   );
